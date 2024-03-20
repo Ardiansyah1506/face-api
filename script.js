@@ -3,11 +3,6 @@ let canvas = document.body.appendChild(document.createElement("canvas"));
 let ctx = canvas.getContext("2d");
 let displaySize;
 
-  // Fungsi ini akan dijalankan saat halaman selesai dimuat
-  window.onload = function() {
-    // Tampilkan sebuah alert
-    alert("Btw Sabar bentar butuh waktu buat munculin kameranya:v");
-};
 
 let width = 1280;
 let height = 720;
